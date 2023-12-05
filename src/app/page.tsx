@@ -14,15 +14,15 @@ export default function Home() {
         <div className="flex flex-col gap-6">
           <div className="flex flex-col">
             <span className="text-zinc-500 lg:text-black">Nome de usuário</span>
-            <input className="w-[359px] lg:w-[430px] h-[73px] lg:h-[70] bg-zinc-600 lg:bg-white border-[1px] lg:border-[3px] rounded-md" type="text" />
+            <input className="w-[359px] lg:w-[430px] h-[63px] lg:h-[70] bg-zinc-600 lg:bg-white border-[1px] lg:border-[3px] rounded-md" type="text" />
           </div>
           <div className="flex flex-col ">
             <span className="text-zinc-500 lg:text-black">Senha</span>
-            <input className="w-[359px] lg:w-[430px] h-[73px] lg:h-[70] bg-zinc-600 lg:bg-white border-[1px] lg:border-[3px] rounded-md" type="text" />
+            <input className="w-[359px] lg:w-[430px] h-[63px] lg:h-[70] bg-zinc-600 lg:bg-white border-[1px] lg:border-[3px] rounded-md" type="text" />
           </div>
           <div className="flex flex-col gap-4 items-center">
-            <button className="bg-fuchsia-600 text-white w-[359px] h-[78px] font-semibold rounded-lg lg:w-[430px]">Entrar</button>
-            <button className="bg-white text-fuchsia-600 w-[359px] h-[78px] font-extrabold rounded-lg lg:w-[430px] lg:bg-zinc-300 lg:h-[50px]">Esqueci minha senha</button>
+            <button className="bg-fuchsia-600 text-white w-[359px] h-[68px] font-semibold rounded-lg lg:w-[430px]">Entrar</button>
+            <button className="bg-white text-fuchsia-600 w-[359px] h-[68px] font-extrabold rounded-lg lg:w-[430px] lg:bg-zinc-300 lg:h-[50px]">Esqueci minha senha</button>
           </div>
         </div>
       </div>
