@@ -5,11 +5,11 @@ import background from "@/img/background.png";
 
 export default function Home() {
   return (
-    <main className="flex flex-col max-lg:bg-zinc-800 backdrop-brightness-50 lg:bg-background bg-cover h-screen justify-center items-center">
-      <div className="flex flex-col items-center justify-center gap-[6rem] lg:bg-white p-10 rounded-3xl">
+    <main className="flex flex-col max-lg:bg-zinc-800 lg:bg-background bg-cover h-screen justify-center items-center">
+      <div className="flex flex-col items-center justify-center gap-[6rem] lg:gap-[3rem] lg:bg-white p-4 rounded-3xl">
         <div className="flex items-center">
           <Image className="lg:sr-only" src={logomob} alt="logo" width={180} />
-          <Image className="max-lg:sr-only pt-8" src={logodesk} alt="logodesk" width={303} />
+          <Image className="max-lg:sr-only pt-8" src={logodesk} alt="logodesk" width={250} />
         </div>
         <div className="flex flex-col gap-6">
           <div className="flex flex-col">
